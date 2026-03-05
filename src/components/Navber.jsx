@@ -1,3 +1,4 @@
+import { FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Navber = () => {
@@ -54,6 +55,7 @@ const Navber = () => {
           </ul>
 
           <button className="btn btn-primary">
+            <FaPlus />
             New Ticket
           </button>
         </div>
@@ -61,6 +63,7 @@ const Navber = () => {
           {/* Mobile Right Side */}
         <div className="navbar-end lg:hidden">
           <button className="btn btn-primary btn-sm">
+            <FaPlus />
             New Ticket
           </button>
         </div>
