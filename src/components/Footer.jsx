@@ -4,10 +4,7 @@ import { RiTwitterXFill, RiLinkedinFill, RiFacebookFill, RiMailFill } from "reac
 const Footer = () => {
   return (
     // Wrapper to push footer to the bottom
-    <div className="flex flex-col min-h-screen bg-gray-900">
-      <main className="flex-grow">
-<h3>content</h3>
-      </main>
+    <div className="flex flex-col  bg-gray-900">
 
       <footer className="bg-black text-[#9ca3af] py-16 px-4 md:px-10 font-sans border-t border-gray-800">
         <div className="max-w-[1400px] mx-auto">
